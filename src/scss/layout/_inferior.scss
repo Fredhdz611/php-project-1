@@ -20,6 +20,12 @@
   }
 }
 
+.info-meta {
+  span {
+    color: $amarillo;
+  }
+}
+
 .txt-entrada {
   a {
     color: $negro;
@@ -43,9 +49,5 @@
       background-color: $verde;
       margin-top: 1rems;
     }
-  }
-
-  span {
-    color: $amarillo;
   }
 }
