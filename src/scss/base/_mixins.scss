@@ -10,13 +10,13 @@
         @content;
     }
 }
-  
+
 @mixin desktop {
     @media (min-width: #{$desktop}) {
         @content;
     }
 }
-@mixin grid($columnas, $espaciado ) {
+@mixin grid($columnas, $espaciado) {
     display: grid;
     gap: $espaciado;
     grid-template-columns: repeat($columnas, 1fr);
@@ -31,8 +31,10 @@
     text-align: center;
     margin-top: calc($separacion / 2);
     display: $display;
+    border: none;
 
     &:hover {
         background-color: darken($bgColor, 5);
+        cursor: pointer;
     }
 }

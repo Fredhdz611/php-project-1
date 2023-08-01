@@ -6,14 +6,16 @@
 
 .ad {
   background-color: lighten($gris, 5);
-  border: 1px, solid darken($gris, 10);
+  border:
+    1px,
+    solid darken($gris, 10);
 
   .content-ad {
     padding: 2rem;
-
   }
 
-  h3, p {
+  h3,
+  p {
     margin: 0;
   }
 }
@@ -43,5 +45,4 @@
       font-weight: $black;
     }
   }
-
 }

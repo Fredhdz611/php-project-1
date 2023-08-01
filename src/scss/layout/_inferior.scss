@@ -8,11 +8,11 @@
 
 .entrada-blog {
   margin-bottom: 2rem;
-  
+
   @include tablet {
-      display: grid;
-      grid-template-columns: 1fr 2fr;
-      column-gap: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 2rem;
   }
 
   &:last-of-type {
@@ -42,10 +42,10 @@
     line-height: 1.4;
 
     &::after {
-      content: '';
+      content: "";
       display: block;
       width: 15rem;
-      height: .5rem;
+      height: 0.5rem;
       background-color: $verde;
       margin-top: 1rems;
     }
