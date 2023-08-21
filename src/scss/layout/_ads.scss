@@ -6,9 +6,8 @@
 
 .ad {
   background-color: lighten($gris, 5);
-  border:
-    1px,
-    solid darken($gris, 10);
+  margin-bottom: 2rem;
+  border: 1px solid darken($gris, 10);
 
   .content-ad {
     padding: 2rem;
